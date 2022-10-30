@@ -861,9 +861,9 @@ function Library:create(options)
 	settingsTab:_theme_selector()
 
 	settingsTab:keybind{
-		Name = "Toggle Key",
+		Name = "Ẩn Menu",
 		Description = "Key to show/hide the UI.",
-		Keybind = Enum.KeyCode.Minus,
+		Keybind = Enum.KeyCode.LeftControl,
 		Callback = function()
 			self.Toggled = not self.Toggled
 			Library:show(self.Toggled)
